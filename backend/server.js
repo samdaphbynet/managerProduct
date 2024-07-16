@@ -1,6 +1,6 @@
 import app from "./app.js"
-import router from "./routes/test.js"
+import userAuth from "./routes/user.Routes.js"
 
 
 
-app.use("/", router);
+app.use("/api/user/", userAuth);
